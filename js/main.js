@@ -1,21 +1,11 @@
-/*
-	Name: LazyGuy
-	Description: Personal Landing Page
-	Version: 1.0
-	Author: pixelwars
-*/
-
 (function () {
    'use strict';
 	
-	// WAIT FOR ALL TO BE LOADED
 	window.onload = function() {
 		
-		// add loaded class to html
 		var root = document.documentElement;
 		root.className += ' loaded';
-
-		// TYPING EFFECT
+		
 		Typed.new('#typed', {
             stringsElement: document.getElementById('typed-strings'),
 			loop: true,
@@ -24,16 +14,10 @@
 			startDelay: 1000,
 			backDelay: 1200
         });
-	}; // all loaded
+	};
 	
 	  
 }());
-
-
-
-/*
-	PLUGINS
-*/
 
 // Typed.js | Copyright (c) 2016 Matt Boldt | www.mattboldt.com
 // The MIT License (MIT)
