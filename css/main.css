@@ -174,10 +174,10 @@ p:last-child {
     -------------------------------------------- */ 	
 
 /* SOCIAL LINKS */
-.social-link {
-	display: inline-block; margin: 8px 2px 8px 0; text-decoration: none; user-select: none;
+.social-link i {
+	display: inline-block; font-size: 1.5em; margin: 8px 6px 8px 0; text-decoration: none; user-select: none; color: #222;
 	}
-.social-link:active {
+.social-link:active i {
 	transform: scale(0.8);
 	}
 .social-link:before {
